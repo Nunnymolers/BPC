@@ -1,10 +1,18 @@
 /**
  * Some placeholder SASS
+ https://coolors.co/ffffff-2b2d42-8d99ae-b02e0c-d90429
  */
+@import url('https://fonts.googleapis.com/css?family=Jura|Cute+Font&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
 
-$body-bg: rgb(255, 255, 255);
 $body-color: #111;
 $display-4:rgb(37, 137, 189);
+$gray-100: rgb(79, 93, 117) !default;
+
+$gray: #8D99AE;
+$dark-gray: #2B2D42;
+$red:#D90429;
+$darker-red: #B02E0C;
+$white: white;
 
 .my-container {
   max-width: 800px;
@@ -14,11 +22,28 @@ $display-4:rgb(37, 137, 189);
   margin-bottom: 40px;
 }
 
-h3, .h3{
-  color:$display-4;
+.navbar-text, .navbar-brand, .nav-item, .nav-link{
+  color:$dark-gray !important;
+  font-family: 'Cute Font', cursive !important;
+  font-size: 1.5rem !important;
+}
+
+.card{
+  margin:1rem 0 !important;
+  border: none !important;
+  background: transparent !important;
+  color:$white !important;
+}
+.grayBg{
+  background-color:$dark-gray !important;
+  width:100% !important;
 }
 
 body{
-  background-color: $body-bg;
+  background-color: $gray !important;
+  font-family: 'Jura', sans-serif !important;
 }
 
+.bg-light{
+  background-color: white !important;
+}
