@@ -35,8 +35,8 @@ $white: white;
 .card{
   margin:1rem 0 !important;
   border: 1px white solid !important;
-  background: transparent !important;
-  color:$white !important;
+  background: $white !important;
+  color:$red !important;
 }
 
 .jumbotron{
@@ -65,5 +65,5 @@ body{
 }
 
 .imageBtn img{
-  
+
 }
