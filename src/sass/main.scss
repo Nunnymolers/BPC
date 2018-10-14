@@ -8,7 +8,7 @@ $body-color: #111;
 $display-4:rgb(37, 137, 189);
 $gray-100: rgb(79, 93, 117) !default;
 
-$gray: #8D99AE;
+$gray: #ACB4C4;
 $dark-gray: #2B2D42;
 $red:#D90429;
 $darker-red: #B02E0C;
@@ -23,27 +23,47 @@ $white: white;
 }
 
 .navbar-text, .navbar-brand, .nav-item, .nav-link{
-  color:$dark-gray !important;
+  color:$white !important;
   font-family: 'Cute Font', cursive !important;
   font-size: 1.5rem !important;
 }
 
+.navbar-brand{
+  color:$red !important;
+}
+
 .card{
   margin:1rem 0 !important;
-  border: none !important;
+  border: 1px white solid !important;
   background: transparent !important;
   color:$white !important;
 }
-.grayBg{
-  background-color:$dark-gray !important;
+
+.jumbotron{
+  background-color: $gray !important;
+}
+
+.redGradientBg{
   width:100% !important;
+  background-image: linear-gradient(to right, #B02E0C , #D90429) !important;
+  margin-bottom:3rem !important;
+  padding:3rem 0 !important;
 }
 
 body{
-  background-color: $gray !important;
+  background-color: $white !important;
   font-family: 'Jura', sans-serif !important;
 }
 
 .bg-light{
-  background-color: white !important;
+  background-color: $dark-gray !important;
+}
+
+.imageBtn{
+  padding:0 !important;
+  margin: 1rem !important;
+}
+
+.imageBtn img{
+  
 }
