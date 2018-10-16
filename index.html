@@ -5,7 +5,7 @@
       <link rel="stylesheet" href='/css/style.css'>
     </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <a class="navbar-brand" href="#">BPC</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -20,9 +20,6 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/events">Events <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Classes</a>
@@ -43,32 +40,29 @@
         <div class="carousel-item active">
           <div style='height:30rem'>
 
-            <img class="d-block w-100" src="https://images.unsplash.com/photo-1533458504656-81a904b29a69?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b888832a29d97d8eb911d207d29f7cf5&auto=format&fit=crop&w=1500&q=80" alt="First slide">
+            <img class="d-block w-100" src="https://andrew.wisen.space/capture/load/jIYB_d6yvt140hklNVpzf0Hb.jpg" alt="First slide">
           </div>
             <div class="carousel-caption d-none d-md-block">
-                <h5>...</h5>
-                <p>...</p>
+                <h5>BPC Art Studio</h5>
             </div>
         </div>
         <div class="carousel-item">
           <div style='height:30rem'>
 
-            <img class="d-block w-100" src="https://images.unsplash.com/photo-1533467666050-ba3af9d77797?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c88e837cd3ba2139e6e1199e5816ee07&auto=format&fit=crop&w=1400&q=80" alt="Second slide">
+            <img class="d-block w-100" src="https://andrew.wisen.space/capture/load/nCncK2dVarusFXCkjeOsUq75.jpg" alt="Second slide">
           </div>
 
             <div class="carousel-caption d-none d-md-block">
-                <h5>...</h5>
-                <p>...</p>
+                <h5>BPC Art Studio</h5>
             </div>
         </div>
         <div class="carousel-item">
           <div style='height:30rem'>
 
-            <img class="d-block w-100" src="https://images.unsplash.com/photo-1533420818497-950b82678fc5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=71130a052ef932312ab7b86595d4d2fb&auto=format&fit=crop&w=1500&q=80" alt="Third slide">
+            <img class="d-block w-100" src="https://andrew.wisen.space/capture/load/ra58Gz-TWPLA2esSIfOtge1w.jpg" alt="Third slide">
           </div>
             <div class="carousel-caption d-none d-md-block">
-                <h5>...</h5>
-                <p>...</p>
+                <h5>BPC Art Studio</h5>
             </div>
         </div>
       </div>
@@ -124,6 +118,16 @@
                     <h1>!!</h1>
                   </div>
               </div>
+          </div>
+          <div>
+            <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCT9owq1KkZwaUyc9Sj46lSL2HnKNCh-HY'></script>
+            <div style='overflow:hidden;height:500px;width:500px;'>
+              <div id='gmap_canvas' style='height:500px;width:500px;'></div>
+              <style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+            </div>
+            <a href='https://embedmap.org/'>google maps html widget</a>
+            <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=bc43dc3479a78043516827a5efc00784eb90d2f1'></script>
+            <script type='text/javascript'>function init_map(){var myOptions = {zoom:11,center:new google.maps.LatLng(37.4127168,-122.12485859999998),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(37.4127168,-122.12485859999998)});infowindow = new google.maps.InfoWindow({content:'<strong>BPC Art Studio</strong><br>4141 El Camino Real<br>94306 Palo Alto<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
           </div>
         </div>
     </div>

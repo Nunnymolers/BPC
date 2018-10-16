@@ -18,6 +18,10 @@ $white: white;
   max-width: 800px;
 }
 
+.carousel-caption h5{
+  color: $red !important;
+}
+
 .footer {
   margin-bottom: 40px;
 }
@@ -28,13 +32,14 @@ $white: white;
   font-size: 1.5rem !important;
 }
 
+
 .navbar-brand{
   color:$red !important;
 }
 
 .card{
   margin:1rem 0 !important;
-  border: 1px white solid !important;
+  border: none !important;
   background: $white !important;
   color:$red !important;
 }
@@ -50,20 +55,48 @@ $white: white;
   padding:3rem 0 !important;
 }
 
+#overrideMargin{
+    margin-bottom:0 !important;
+}
+
+.blueGradientBg{
+  width:100% !important;
+  background-image: linear-gradient(to right,  #3a3c59, #2B2D42) !important;
+  margin-bottom:3rem !important;
+  padding:3rem 0 !important;
+}
+
 body{
   background-color: $white !important;
   font-family: 'Jura', sans-serif !important;
 }
 
 .bg-light{
-  background-color: $dark-gray !important;
+  background-image: linear-gradient(180deg,#2B2D42,transparent)!important;
+  background-color: transparent !important;
+
+}
+
+.navbar{
+  position:absolute !important;
+  width:100% !important;
 }
 
 .imageBtn{
   padding:0 !important;
   margin: 1rem !important;
+  width:15rem;
+  height:15rem;
+  -webkit-transition: all 0.2s ease;
 }
 
-.imageBtn img{
+.imageBtn:hover{
+    -webkit-filter: blur(0.1em);
+}
 
+
+
+#dood{
+  margin-top:5rem;
+  color: $white !important;
 }
