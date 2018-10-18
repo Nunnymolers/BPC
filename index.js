@@ -51,7 +51,7 @@ app.get('/events', (req, res, next) => {
 app.get('/classes', (req, res, next) => {
 
 	/* Get the absolute path of the html file */
-	var filePath = path.join(__dirname, './classes.html')
+	var filePath = path.join(__dirname, './classestest.html')
 
 	/* Sends the html file back to the browser */
 	res.sendFile(filePath);
