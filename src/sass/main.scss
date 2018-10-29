@@ -10,7 +10,7 @@ $gray-100: rgb(79, 93, 117) !default;
 
 $gray: #ACB4C4;
 $dark-gray: #2B2D42;
-$red:#D90429;
+$red:#9096a5;
 $darker-red: #B02E0C;
 $white: white;
 
@@ -41,16 +41,20 @@ $white: white;
   margin:1rem 0 !important;
   border: none !important;
   background: $white !important;
-  color:$red !important;
+  color:$dark-gray !important;
 }
 
 .jumbotron{
   background-color: $gray !important;
 }
 
+.nav-link, .navbar-brand{
+  font-size: 2rem !important;
+}
+
 .redGradientBg{
   width:100% !important;
-  background-image: linear-gradient(to right, #B02E0C , #D90429) !important;
+  background-color: $red !important;
   margin-bottom:3rem !important;
   padding:3rem 0 !important;
 }
