@@ -128,7 +128,10 @@ body{
   and (min-device-width: 320px)
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
+    *{
       font-size:5vmin !important;
+    }
+
 }
 
 /* Portrait and Landscape */
@@ -136,12 +139,16 @@ body{
   and (min-device-width: 320px)
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
-    font-size:5vmin !important;
+    *{
+      font-size:5vmin !important;
+    }
 }
 
 @media only screen
   and (min-device-width: 375px)
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
-    font-size:5vmin !important;
+    *{
+      font-size:5vmin !important;
+    }
 }
