@@ -19,7 +19,9 @@ $white: white;
 }
 
 .carousel-caption h5{
-  color: $red !important;
+  color: $white !important;
+  background-color:rgba(50, 52, 77, 0.7) !important;
+  padding:1rem !important;
 }
 
 .footer {
@@ -34,7 +36,7 @@ $white: white;
 
 
 .navbar-brand{
-  color:$red !important;
+  color:$dark-gray !important;
 }
 
 .card{
