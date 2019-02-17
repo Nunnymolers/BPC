@@ -131,6 +131,18 @@ body{
     *{
       font-size:5vmin !important;
     }
+    .card {
+        margin: 0 auto !important; /* Added */
+        float: none !important; /* Added */
+        margin-bottom: 10px !important; /* Added */
+        width:60vmin !important;
+      }
+      .table {
+        width:60vmin !important;
+        margin: 0 auto !important; /* Added */
+        float: none !important; /* Added */
+        margin-left: -10vmin !important;
+      }
 
 }
 
@@ -142,6 +154,18 @@ body{
     *{
       font-size:5vmin !important;
     }
+    .card {
+        margin: 0 auto !important; /* Added */
+        float: none !important; /* Added */
+        margin-bottom: 10px !important; /* Added */
+        width:60vmin !important;
+      }
+      .table {
+        width:60vmin !important;
+        margin: 0 auto !important; /* Added */
+        float: none !important; /* Added */
+        margin-left: -10vmin !important;
+      }
 }
 
 @media only screen
@@ -151,4 +175,16 @@ body{
     *{
       font-size:5vmin !important;
     }
+    .card {
+        margin: 0 auto !important; /* Added */
+        float: none !important; /* Added */
+        margin-bottom: 10px !important; /* Added */
+        width:60vmin !important;
+      }
+      .table {
+        width:60vmin !important;
+        margin: 0 auto !important; /* Added */
+        float: none !important; /* Added */
+        margin-left: -10vmin !important;
+      }
 }
