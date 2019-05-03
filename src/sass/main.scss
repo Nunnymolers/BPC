@@ -5,13 +5,13 @@
 @import url('https://fonts.googleapis.com/css?family=Jura|Cute+Font&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
 
 $body-color: #111;
-$display-4:rgb(37, 137, 189);
-$gray-100: rgb(79, 93, 117) !default;
+$display-4:#4f4f4f;
+$gray-100: #4f4f4f;
 
-$gray: #ACB4C4;
-$dark-gray: #2B2D42;
-$red:#9096a5;
-$darker-red: #B02E0C;
+$gray: #4f4f4f;
+$dark-gray: #fff;
+$red:#4f4f4f;
+$darker-red: #4f4f4f;
 $white: white;
 
 .my-container {
@@ -43,11 +43,11 @@ $white: white;
   margin:1rem 0 !important;
   border: none !important;
   background: $white !important;
-  color:$dark-gray !important;
+  color:$gray !important;
 }
 
 .jumbotron{
-  background-color: $gray !important;
+  background-color: $white !important;
 }
 
 .nav-link, .navbar-brand{
@@ -67,7 +67,7 @@ $white: white;
 
 .blueGradientBg{
   width:100% !important;
-  background-image: linear-gradient(to right,  #3a3c59, #2B2D42) !important;
+  background-image: linear-gradient(to right,  #4f4f4f, #4f4f4f) !important;
   margin-bottom:3rem !important;
   padding:3rem 0 !important;
   color: $white !important;
@@ -98,7 +98,7 @@ body{
 }
 
 .bg-light{
-  background-image: linear-gradient(180deg,#2B2D42,transparent)!important;
+  background-image: linear-gradient(180deg,#4f4f4f,transparent)!important;
   background-color: transparent !important;
 }
 
